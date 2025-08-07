@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun A R | Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Animate Style Animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+HU:wght@100..400&family=Playwrite+PL:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav>
+      <ul class="navList">
+        <li><a class="navLink" href="#skills">Skills</a></li>
+        <li><a class="navLink" href="#projects">Projects</a></li>
+        <li><a class="navLink" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Home Section | About Me -->
+    <section class="home allSections" id="about">
+      <div class="homeLeft">
+        <h2 class="animate__animated animate__fadeIn">Hi, I'm</h2>
+        <h2 class="animate__animated animate__fadeInLeft" id="homeName">
+          Arjun A R
+        </h2>
+        <p class="animate__animated animate__fadeIn  homeDes">
+          Web Developer
+        </p>
+        <br />
+        <p class="homeAbout">
+          I’m a passionate developer currently learning HTML, CSS, and the ME(A)RN
+          stack. I enjoy crafting clean and functional web interfaces and
+          continuously expanding my skills through practice and projects.
+        </p>
+        <a class="resumeLink" href="./media/Resume 1.pdf">View My Resume</a>
+      </div>
+      <div class="homeRight">
+        <img src="./media/profile1.png" alt="Arjun Image" />
+      </div>
+    </section>
+
+    <!-- Skill section -->
+    <section class="skills allSections" id="skills">
+      <div class="sectionHead"><h2>My Skills</h2></div>
+      <div class="skillsGrid">
+        <div class="skillItem">
+          <img src="./media/html5logo.png" alt="HTML" />
+          <p>HTML</p>
+        </div>
+        <div class="skillItem">
+          <img src="./media/csslogo.png" alt="CSS" />
+          <p>CSS</p>
+        </div>
+        <div class="skillItem">
+          <img src="./media/javascriptlogo.png" alt="JavaScript" />
+          <p>JavaScript</p>
+        </div>
+        <div class="skillItem">
+          <img src="./media/reactlogo.png" alt="JavaScript" />
+          <p>React</p>
+        </div>
+        <div class="skillItem">
+          <img id="nodeLogo" src="./media/nodelogo.png" alt="JavaScript" />
+          <p>NodeJS</p>
+        </div>
+        <div class="skillItem">
+          <img id="angLogo" src="./media/angularlogo.png" alt="JavaScript" />
+          <p>Angular</p>
+        </div>
+        <p class="skillPar">
+          I have a strong foundation in front-end web development, with hands-on
+          experience in HTML and CSS for building clean, responsive layouts. I
+          actively work with JavaScript to add interactivity and dynamic
+          functionality to websites. I'm proficient in React.js, using it to
+          create modern, component-based user interfaces, and I'm also exploring
+          Angular to broaden my understanding of front-end frameworks. Whether
+          it's structuring semantic HTML, styling with CSS, or building SPA
+          architectures with React or Angular, I’m always focused on writing
+          efficient and maintainable code.
+        </p>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="projects allSections" id="projects">
+      <div data-aos="fade-up" data-aos-duration="3000" class="sectionHead">
+        <h2>My Projects</h2>
+      </div>
+      <div data-aos="fade-up" class="projectsGrid">
+        <div class="projectCard">
+          <img src="./media/project1-image.jpg" alt="Project 1" />
+          <a href="https://demo-portfolio-luminar.netlify.app/" target="_blank"
+            >View Project</a
+          >
+        </div>
+        <div class="projectCard">
+          <img src="./media/Project2image.jpg" alt="Project 2" />
+          <a href="https://demo-portfolio-luminar.netlify.app/" target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+     <section id="contact" class="contact allSections">
+      <div class="sectionHead">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="details">
+        <p>Phone: +91 9605074469</p>
+        <p>Email: arjunar8767@gmail.com</p>
+         <p> LinkedIn: <a href="https://www.linkedin.com/in/arjun-a-r-56aa14225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+            >Visit Profile</a
+          ></p>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer | Copyright -->
+    <footer>
+      <p>Portfolio | Arjun A R • 2025 <i class="fa-regular fa-copyright"></i></p>
+    </footer>
+
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
